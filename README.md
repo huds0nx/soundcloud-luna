@@ -5,3 +5,4 @@ Hello there! Today while listening to SoundCloud, I was blinded by the light mod
 To use it, install it with Stylus [Chrome Download](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne "Stylus") or [Firefox Download](https://addons.mozilla.org/en-US/firefox/addon/styl-us/ "Stylus")
 
 Then, click this link and install the theme!
+[Theme Download](https://github.com/klipisbad/soundcloud-luna/raw/main/luna.user.css "Download")
