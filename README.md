@@ -10,7 +10,7 @@ Then, click this link and install the theme!
 ## Photos
 
 ### Stream
-![Stream](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/stream.png)
+![Home](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/home.png)
 ### Likes
 ![Likes](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/likes.png)
 ### Profile
