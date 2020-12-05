@@ -206,10 +206,14 @@ html::-webkit-scrollbar-track{background:transparent}}
     filter: hue-rotate(0deg) !important;
   }
 
+/* cool fixes */
+.sc-artwork {
+    border-radius: 20px;
+}
+
 /* stuff to fix/remove */
 
 /* remove scrollbar */
 .dropdownContent__container {
     overflow: hidden;
 }
-
