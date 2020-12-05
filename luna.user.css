@@ -97,7 +97,11 @@ a.sc-link-dark, .g-tabs-link.active, .playbackTimeline__timePassed, .playbackTim
     transition: transform .9s ease-in-out !important;    
   }    
     
-  
+.fullListenHero__artwork:hover, .g-avatar-badge-avatar > div:nth-child(1) > span:hover, .image:not(.m-omitRoundedBorder) .image__rounded:hover, .image__full, .image:hover {
+    -webkit-transform:scale(1.03) !important;
+    opacity: .8 !important;
+  }
+      
         /* header */  
   
 .header__logoLink {
