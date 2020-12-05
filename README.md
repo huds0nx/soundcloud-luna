@@ -6,3 +6,13 @@ To use it, install it with Stylus [Chrome Download](https://chrome.google.com/we
 
 Then, click this link and install the theme!
 [Theme Download](https://github.com/klipisbad/soundcloud-luna/raw/main/luna.user.css "Download")
+
+## Photos
+
+### Stream
+![Stream](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/stream.png)
+### Likes
+![Likes](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/likes.png)
+### Profile
+![Profile](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/profile.png)
+
