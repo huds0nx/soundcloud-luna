@@ -8,7 +8,8 @@ Then, click this link and install the theme!
 [Theme Download](https://github.com/klipisbad/soundcloud-luna/raw/main/luna.user.css "Download")
 
 ## Photos
-
+### Main
+![Main](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/main.gif)
 ### Home
 ![Home](https://raw.githubusercontent.com/klipisbad/soundcloud-luna/main/photos/home.png)
 ### Likes
