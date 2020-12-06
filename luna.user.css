@@ -44,7 +44,7 @@ body, input, textarea, select, .sc-button, .sc-button:hover, .sc-button:focus, .
     color: var(--maintxt) !important;
   }  
 
-a.sc-link-dark, .g-tabs-link.active, .playbackSoundBadge__title, .playbackSoundBadge__title:visited, .g-link-user, a {
+.insightsSidebarModule__title, a.sc-link-dark, .g-tabs-link.active, .playbackSoundBadge__title, .playbackSoundBadge__title:visited, .g-link-user, a {
     color: var(--4thtxt) !important;
   }  
   
