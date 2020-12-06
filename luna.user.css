@@ -1,60 +1,61 @@
 /* ==UserStyle==
 @name           SoundCloud Luna
 @namespace      github.com/openstyles/stylus
-@version        1.0.4
+@version        1.0.0
 @description    Best SoundCloud dark mode
 @author         Klip#1337
 ==/UserStyle== */
 
 @-moz-document domain("soundcloud.com") {
-    /* custom colors */             /*var(--main-bg)*/
 :root {
---main-bg: #1d1e2a !important;               
---dark-bg: #1a1b26 !important;              
---darker-bg: #14151f !important;             
---main-text: #888 !important;                     /* grey */
---secondary-text: #8a7b70 !important;        /* yellow */
---third-text: #77296e !important;              /* green*/
---fourth-text: #556B82 !important;
+--main: 	#253341 !important;               
+--darkblue: #192734 !important;              
+--darkerblue: #15202B !important;             
+--maintxt: #888 !important;
+--2ndtxt: #8a7b70 !important;
+--3rdtxt: #77296e !important;
+--4thtxt: #939393 !important;
+--progressbar: #7a4747 !important;
+--progresstext: #ca764f !important;
 }  
     
 body, .trackItem:hover, .trackItem.hover:not(.m-disabled) .trackItem__additional, .trackItem.active:not(.m-disabled) .trackItem__additional, .sc-toggle, .sc-toggle-handle, .commentForm__input, .dropbar__content, .trackItem.hover, .trackItem.active, .g-type-shrinkwrap-inline, .searchOptions__navigationItem.active, .searchOptions__navigationItem.active::after, .linkMenu {
-    background: var(--darker-bg) !important;
+    background: var(--darkerblue) !important;
   }  
   
   
-.sc-button, .sc-toggle::before, .compactTrackListItem.clickToPlay.active, .dropdownContent__container, .gritter-item, .notificationBadge__link:after,.compactTrackListItem.clickToPlay:hover, .compactTrackListItem.clickToPlay:focus, .compactTrackListItem.clickToPlay.active .compactTrackListItem__additional, .compactTrackListItem.clickToPlay:hover .compactTrackListItem__additional, .compactTrackListItem.clickToPlay:focus .compactTrackListItem__additional, .compactTrackList__moreLink:hover, .compactTrackList__moreLink:focus, .header__navMenu > li > a.selected, .header > li > a:focus, .playControls__inner, .volume.expanded .volume__sliderWrapper, select, .g-dark-bg, .profileMenu__link, .userNav__button.selected, .playControls__controls, .playControls__bg, li.notifications__item:hover, .uploadMain__chooserContainer, .audibleEditForm__form, .g-tabs, input, textarea, .tagInput__wrapper, select, .linkMenu__item:hover, .moreActions, .editTrackItem__additional {
-    background: var(--dark-bg) !important;
+.sc-button, .sc-toggle::before, compactTrackListItem.clickToPlay.active, .headerMenu, .dropdownContent__container, .header__userNavItem, .header__userNavButton, .gritter-item,.compactTrackListItem.clickToPlay:hover, .compactTrackListItem.clickToPlay:focus, .compactTrackListItem.clickToPlay.active .compactTrackListItem__additional, .compactTrackListItem.clickToPlay:hover .compactTrackListItem__additional, .compactTrackListItem.clickToPlay:focus .compactTrackListItem__additional, .compactTrackList__moreLink:hover, .compactTrackList__moreLink:focus, .header__navMenu > li > a.selected, .header > li > a:focus, .playControls__inner, .volume.expanded .volume__sliderWrapper, select, .g-dark-bg, .profileMenu__link, .userNav__button.selected, .playControls__controls, .playControls__bg, li.notifications__item:hover, .uploadMain__chooserContainer, .audibleEditForm__form, .g-tabs, input, textarea, .tagInput__wrapper, select, .linkMenu__item:hover, .moreActions, .editTrackItem__additional {
+    background: var(--darkblue) !important;
   }    
   
 header, .l-container.l-content, .g-dark textarea, .g-dark select, .g-dark input[type="text"], .g-dark input[type="password"], .collectionNav, .sound__soundActions, .commentForm, .readMoreBadge__countWrapper, .playbackTimeline__progressBackground, .volume__sliderWrapper, .commentForm__wrapper, .fullListenHero__foreground, .sc-label.sc-label-private, .visualSound.listenContext .visualSound__wrapper, .g-dark-list, .notifications__viewAll, .g-dark, .uploadMain__foot, .soundBadge__additional, .l-fixed-top-one-column > .l-top, .searchTitle, .commentFormDisabled, .commentItem, .modal.modalWhiteout, .volume__sliderBackground, .editTrackItem:hover {
-    background: var(--darker-bg) !important;
+    background: var(--darkerblue) !important;
   }  
   
-  .g-dark a:hover, .g-dark a:focus {
-    background-color: var(--main-bg) !important;
-  }  
+.g-dark a:hover, .g-dark a:focus, .header__userNavButton:hover > * {
+    background-color: var(--main) !important;
+ }  
   
 .playbackTimeline__progressBar, .volume__sliderProgress, .volume__sliderHandle {
-    background: var(--third-text) !important;
+    background: var(--progressbar) !important;
   }  
   
 body, input, textarea, select, .sc-button, .sc-button:hover, .sc-button:focus, .sc-button-focus, .sc-tag, .sc-tag:visited, .sc-buylink, .compactTrackListItem__number, .compactTrackListItem__trackTitle, .commentForm__input, .g-tabs-link, select, .g-dark textarea, .g-dark select, .g-dark input[type="text"], .g-dark input[type="password"], .g-dark input[type="search"], .g-type-shrinkwrap-large-primary, .fullListenHero__uploadTime {
-    color: var(--main-text) !important;
+    color: var(--maintxt) !important;
   }  
 
-.playbackSoundBadge__title, .playbackSoundBadge__title:visited, .g-link-user, a {
-    color: var(--fourth-text) !important;
+a.sc-link-dark, .g-tabs-link.active, .playbackSoundBadge__title, .playbackSoundBadge__title:visited, .g-link-user, a {
+    color: var(--4thtxt) !important;
   }  
   
-a.sc-link-dark, .g-tabs-link.active, .playbackTimeline__timePassed, .playbackTimeline__duration {
-    color: var(--fourth-text) !important;
+.playbackTimeline__timePassed, .playbackTimeline__duration {
+    color: var(--progresstext) !important;
   }  
   
   
                           /* remove shit */
   
-.l-listen-wrapper .l-about-rows, .gritter-item, .sc-button, .listenEngagement, .dropdownContent__container, .dropdownContent__header, .headerMenu.m-light, .headerMenu, .notificationBadge__link::after, .dropdownContent__footerLink, .sc-border-light-bottom, .sc-border-light-top, .sc-tag, .sc-tag:visited, .sc-toggle, .sc-border-light-right, .g-tabs, .g-tabs-link.active, .sc-border-light, .commentForm, .commentForm__input, .collection.m-overview .collection__section:not(:last-child), .audibleBadgePlaceholder::before, .header__navMenu > li > a, .playControls__inner, .volume.expanded .volume__sliderWrapper, .ownActivity.large .ownActivity__user, .g-form-section-head, select, .image__whiteOutline .image__full, .commentForm__wrapper, .notifications__viewAll, .playControls__inner, .playControls__bg, .searchTitle__text, .searchPremiumContentFooter, .sc-snippet-badge-grey, .searchOptions__navigationItem.active::after, .g-modal-title-h1, input, textarea, .tagInput__wrapper, select, .moreActions__group, .moreActions__button {
+.dropdownContent__listItem, .dropdownContent__main, .headerMenu__list, .headerMenu, .l-listen-wrapper .l-about-rows, .gritter-item, .sc-button, .listenEngagement, .dropdownContent__list, .dropdownContent__container, .dropdownContent__header, .headerMenu.m-light, .headerMenu, .dropdownContent__footerLink, .sc-border-light-bottom, .sc-border-light-top, .sc-tag, .sc-tag:visited, .sc-toggle, .sc-border-light-right, .g-tabs, .g-tabs-link.active, .sc-border-light, .commentForm, .commentForm__input, .collection.m-overview .collection__section:not(:last-child), .audibleBadgePlaceholder::before, .header__navMenu > li > a, .playControls__inner, .volume.expanded .volume__sliderWrapper, .ownActivity.large .ownActivity__user, .g-form-section-head, select, .image__whiteOutline .image__full, .commentForm__wrapper, .notifications__viewAll, .playControls__inner, .playControls__bg, .searchTitle__text, .searchPremiumContentFooter, .sc-snippet-badge-grey, .searchOptions__navigationItem.active::after, .g-modal-title-h1, input, textarea, .tagInput__wrapper, select, .moreActions__group, .moreActions__button {
     border: none !important;
   }  
   
@@ -105,22 +106,22 @@ a.sc-link-dark, .g-tabs-link.active, .playbackTimeline__timePassed, .playbackTim
         /* header */  
   
 .header__logoLink {
- /* background: url("https://a-v2.sndcdn.com/assets/images/header/cloud-e365a4.png") var(--darker-bg) no-repeat 12px 11px !important;*/
+ /* background: url("https://a-v2.sndcdn.com/assets/images/header/cloud-e365a4.png") var(--darkerblue) no-repeat 12px 11px !important;*/
   background-image: url("https://a-v2.sndcdn.com/assets/images/header/cloud-e365a4.png") !important;
-  background-color: var(--dark-bg) !important;
+  background-color: var(--darkblue) !important;
   }  
   
 .header {
   height: 60px !important;  
   /*background: url("http://puu.sh/pNEVL/6375546623.jpg") !important;*/
-  background-color: var(--dark-bg) !important;
+  background-color: var(--darkblue) !important;
   }  
  
 .headerSearch__input {
+    text-align: center;
     height: 40px !important;  
     border-radius: 30px !important;
     margin-top: -7px !important;
-    margin-left: -15px !important;
   }  
   
 .header__inner {
@@ -135,19 +136,19 @@ a.sc-link-dark, .g-tabs-link.active, .playbackTimeline__timePassed, .playbackTim
    padding: 19px !important;
    height: 60px !important;
    margin-top: -7px !important;
-   background-color: var(--dark-bg) !important;
+   background-color: var(--darkblue) !important;
   }  
   
   .uploadButton {
    padding: 19px !important;
    margin-top: -6px !important;
-   background-color: var(--dark-bg) !important;
+   background-color: var(--darkblue) !important;
   }  
   
   .userNav, .header__navMenu > li > a.header__moreButton {
     height: 60px !important;
     margin-top: -7px !important;
-    background-color: var(--dark-bg) !important;
+    background-color: var(--darkblue) !important;
     opacity: 1 !important;
   }  
   
@@ -155,14 +156,14 @@ a.sc-link-dark, .g-tabs-link.active, .playbackTimeline__timePassed, .playbackTim
      margin-top: 6px !important;
   }  
   
-  .header__navMenu > li > a.selected, .header > li > a:focus, .headerSearch__input, .g-dark input[type="search"] {
-    background-color: var(--main-bg) !important;
+li > a.selected, .header > li > a:focus, .headerSearch__input, .g-dark input[type="search"] {
+    background-color: var(--main) !important;
   }  
   
 /* songs */  
   
 .sc-tag, .sc-tag:visited {
-  background-color: var(--main-bg) !important;
+  background-color: var(--main) !important;
   border-radius: 0px !important;
   padding: 10px !important;
   }  
@@ -202,22 +203,10 @@ html::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#067295,#07846e)
 html::-webkit-scrollbar-track{background:transparent}}
 
 /* wave color */
-.sceneLayer, .sc-button-play, .playbackTimeline, .heroPlayButton {
-    filter: hue-rotate(180deg);
-  }
-  
-  .waveformCommentsNode {
-    filter: hue-rotate(0deg) !important;
+.sceneLayer, .playbackTimeline {
+    filter: hue-rotate(220deg);
   }
 
-/* cool fixes */
 .sc-artwork {
     border-radius: 20px;
-}
-
-/* stuff to fix/remove */
-
-/* remove scrollbar */
-.dropdownContent__container {
-    overflow: hidden;
 }
