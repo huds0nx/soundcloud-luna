@@ -2,10 +2,10 @@
 
 Hello there! Today while listening to SoundCloud, I was blinded by the light mode, so decided to make a SoundCloud Dark Mode theme!
 
-To use it, install it with Stylus [Chrome Download](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne "Stylus") or [Firefox Download](https://addons.mozilla.org/en-US/firefox/addon/styl-us/ "Stylus")
+To use it, install it with [Stylus](https://github.com/openstyles/stylus "Stylus")
 
-Then, click this link and install the theme!
-[Theme Download](https://github.com/klipisbad/soundcloud-luna/raw/main/luna.user.css "Download")
+Then, click [this link](https://github.com/klipisbad/soundcloud-luna/raw/main/luna.user.css "Download") and install the theme!
+
 
 ## Photos
 ### Main
